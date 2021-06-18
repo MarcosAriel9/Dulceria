@@ -1,14 +1,16 @@
-let user = document.getElementById("UsuarioLogin");
-let pass =document.getElementById("PassLogin")
-const validar = () => {
-    if(user == 'admin'){
-        location.href="./screens/adminInicio.html";
-        alert(`Bienvenido ${user}, usuario y/o contraseña correctos`)
-    }else if(user == 'cajero'){
-        location.href="./screens/cajeroInicio.html";
-        alert(`Bienvenido ${user}, usuario y/o contraseña correctos`)
 
-    }else{
-        alert(`Usuario y/o Contraseña incorrectos`)
-    }
+const validar = () => {
+        let user = document.getElementById("UsuarioLogin").value
+        let pass = document.getElementById("PassLogin").value
+        if (user == 'admin') {
+                var win = window.open("../screens/adminInicio.html", '_blank')
+                win.focus()
+                alert(`Bienvenido ${user}, usuario y contraseña correctos`)
+        } else if (user == 'cajero'){
+                var win2 = window.open("../screens/cajeroInicio.html", '_blank')
+                win.focus()
+                alert(`Bienvenido ${user}, usuario y contraseña correctos`)
+        }else{
+                alert(` usuario y contraseña incorrectos`)
+        }
 }

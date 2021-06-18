@@ -23,43 +23,46 @@
             </a>
         </nav>
     </header>
-
+    <br>
     <div class="text-center ">
-        <h1>Bienvenido a la dulceria ...</h1>
+        <h1>Bienvenido a la dulceria la calaverita de azucar</h1>
     </div>
+    <br>
+    <div align="center">
+      <section class="container-fluid "  id="login">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 card">
+          <div class="card-body">
+            
+          
 
-    <section class="container-fluid justify-content-center" id="login">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6 card">
-            <div class="card-body">
-              
-            
-
-        <div >
-            <form class="px-4 py-3">
-              <div class="form-group">
-                <label for="UsuarioLogin">Usuario</label>
-                <input type="text" class="form-control" id="UsuarioLogin" placeholder="UserUTEZ">
+      <div >
+          <form class="px-4 py-3"  method="post">
+            <div class="form-group">
+              <label for="UsuarioLogin">Usuario</label>
+              <input type="text" class="form-control" id="UsuarioLogin" placeholder="UserUTEZ">
+            </div>
+            <div class="form-group">
+              <label for="PassLogin">Contraseña</label>
+              <input type="password" class="form-control" id="PassLogin" placeholder="******">
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dCheck">
+                <label class="form-check-label" for="Check">
+                  Recordarme
+                </label>
               </div>
-              <div class="form-group">
-                <label for="PassLogin">Contraseña</label>
-                <input type="password" class="form-control" id="PassLogin" placeholder="******">
-              </div>
-              <div class="form-group">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="dCheck">
-                  <label class="form-check-label" for="Check">
-                    Recordarme
-                  </label>
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary" onclick="validar()">Sign in</button>
-            </form>
-            
-            
-          </div>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="validar()">Sign in</button>
+          </form>
+          
+          
         </div>
-    </div>
-    </section>
+      </div>
+  </div>
+  </section>
+</div>
+    
 
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
