@@ -2,3 +2,17 @@
     margin-top: 5em;
    
 }
+.bodyBg {
+    background: url(../assets/bgred3.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
+
+body{
+    font-family: 'Chicken Soup', sans-serif;
+    font-weight: normal;
+    font-size: 150%;
+}
+
