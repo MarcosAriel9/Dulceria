@@ -11,8 +11,13 @@
   }
 
 body{
-    font-family: 'Chicken Soup', sans-serif;
+  
+    font-family: 'Chicken Soup';
+    font-style: normal;
     font-weight: normal;
     font-size: 150%;
+    src: local('Chicken Soup'), url('https://fonts.cdnfonts.com/s/37917/Chicken Soup.woff') format('woff');
+
+
 }
 
